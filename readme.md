@@ -1,6 +1,6 @@
 # Technical Documentation Page
 
-## Responsive Web Design Project
+## Responsive Web Design Project Curriculum
 
 from **[Freecodecamp](https://www.freecodecamp.org/)**
 
@@ -8,7 +8,7 @@ hopefully this solution can help 😊
 
 -------------------
 
-**[DEMO](https://indrijunanda.github.io/tributepage-fcc/)** or check on **[Codepen](https://codepen.io/indrijunanda/pen/gVBMpa)**
+**[DEMO](https://indrijunanda.github.io/technicaldocumentationpage-fcc/)** or check on **[Codepen](https://codepen.io/indrijunanda/pen/gVBMpa)**
 
 -------------------
 
