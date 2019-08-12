@@ -1,0 +1,129 @@
+html,
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.5;
+}
+
+#navbar {
+    position: fixed;
+    min-width: 300px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: #424242;
+}
+
+#navbar ul{
+    height: 100%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#navbar .nav-link{
+    color: #424242;
+    border-top: 1px solid #424242;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+
+#navbar a{
+    display: block;
+    padding: 15px 35px;
+    color: #424242;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+header{
+    color: #212121;
+    margin: 12px;
+    text-align: center;
+    font-weight: thin;
+    font-size: 1.5em;    
+}
+
+#main-doc{
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+main header{
+    text-align: left;
+    margin: 0px;        
+}
+
+section article{
+    color: #424242;
+    margin: 20px;
+    font-size: .90em
+}
+
+@media (max-width: 768px){
+    #navbar {
+        position: absolute;
+        top: 0;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        max-height: 275px;
+        z-index: 1;
+        border: none;
+        border-bottom: solid;
+    }
+
+    #navbar ul{
+        height: 200px;        
+    }
+
+    #main-doc{
+        position: relative;
+        margin-top: 300px;
+        margin-left: 0px;
+
+    }
+    
+}
+
+code{
+    color: red;    
+    background-color: #eeeeee;
+}
+
+.code-result{    
+    text-align: left;    
+    position: relative;        
+    background-color: #eeeeee;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 4px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #757575;
+}
+
+a:hover{
+    color: #212121;
+}
+
+.code-editor{
+    text-align: left;
+    position: relative;
+    background-color: #eeeeee;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 4px;
+    line-height: 2;
+    word-break: normal;
+    word-wrap: normal;
+    display: block;
+}
