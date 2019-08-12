@@ -1,8 +1,8 @@
 # Technical Documentation Page
 
-## Responsive Web Design Project Curriculum
+## Responsive Web Design Project
 
-from **[Freecodecamp](https://www.freecodecamp.org/)**
+from **[Freecodecamp](https://www.freecodecamp.org/)** Responsive Web Design Curriculum
 
 hopefully this solution can help 😊
 
